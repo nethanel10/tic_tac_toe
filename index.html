@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic tac toe </title>
+</head>
+<body>
+
+    <div class="tic-tac-toe">
+        <p><b>short description:</b>
+            You are X, and your friend is O. Players take turns
+            putting their marks in empty squares.
+            the winner is the first player to get 3 of her marks in a row (up,
+            down, across, or diagonally)
+        </p>
+        <h3>Tic tac toe</h3>
+
+        <div class="time">
+            Game time: <label id="minutes">00</label>:<label id="seconds">00</label>
+
+        </div>
+        <div id="board" class="board">
+
+            <div class="qube"></div>
+            <div class="qube"></div>
+            <div class="qube"></div>
+            <div class="qube"></div>
+            <div class="qube"></div>
+            <div class="qube"></div>
+            <div class="qube"></div>
+            <div class="qube"></div>
+            <div class="qube"></div>
+        </div>
+        <h1 id="feedback"></h1>
+        <button onclick="restart()">Restart game</button>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
